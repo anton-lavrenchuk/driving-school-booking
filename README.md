@@ -35,7 +35,7 @@ Full-stack TypeScript monorepo for driving school management. Functionality incl
 <summary><b>Docker - one command</b></summary>
 
 ```sh
-git clone git@github.com:anton-avrelinex/driving-school-booking.git
+git clone git@github.com:anton-lavrenchuk/driving-school-booking.git
 cd driving-school-booking
 cp .env.example .env
 docker compose up
@@ -61,7 +61,7 @@ To bootstrap admin-only (no demo data), delete the `DEMO_USERS_PASSWORD` line in
 <summary><b>Local - databases in Docker, apps on host</b></summary>
 
 ```sh
-git clone git@github.com:anton-avrelinex/driving-school-booking.git
+git clone git@github.com:anton-lavrenchuk/driving-school-booking.git
 cd driving-school-booking
 pnpm install
 pnpm setup
